@@ -1,0 +1,21 @@
+{
+    "name": "raul/buscacursosdb",
+    "description": "Teste de conexão ao MySQL.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Raul Mota",
+            "email": "raulpmota25@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.2",
+        "symfony/css-selector": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\": "src/"
+        }
+    }
+}
